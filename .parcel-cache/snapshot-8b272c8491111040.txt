@@ -1,6 +1,6 @@
-50
+51
 73D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\dist\redux.mjs133581723122508719 0
-44D:\SHOHAG\Redux-projects\redux-practice\dist133583448864031042 1
+44D:\SHOHAG\Redux-projects\redux-practice\dist133583460267385642 1
 74D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\dist\redux.d.ts133581723122957304 0
 83D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\src\utils\actionTypes.ts133581723122618204 0
 50D:\SHOHAG\Redux-projects\redux-practice\index.html133583211821994022 0
@@ -8,7 +8,7 @@
 52D:\SHOHAG\Redux-projects\redux-practice\node_modules133581723123465946 1
 77D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\dist\redux.mjs.map133581723122393637 0
 71D:\SHOHAG\Redux-projects\redux-practice\node_modules\.package-lock.json133581723123515946 0
-49D:\SHOHAG\Redux-projects\redux-practice\script.js133583448863291867 0
+49D:\SHOHAG\Redux-projects\redux-practice\script.js133583460266024054 0
 71D:\SHOHAG\Redux-projects\redux-practice\dist\redux-practice.3464ddca.js133581723877519166 0
 52D:\SHOHAG\Redux-projects\redux-practice\package.json133581723123186808 0
 57D:\SHOHAG\Redux-projects\redux-practice\package-lock.json133581723123426049 0
@@ -23,6 +23,7 @@
 68D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\README.md133581723122423573 0
 62D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\src133581723122787766 1
 81D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\src\applyMiddleware.ts133581723122668110 0
+49D:\SHOHAG\Redux-projects\redux-practice\README.md133583450188038350 0
 84D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\src\bindActionCreators.ts133581723122707962 0
 81D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\src\combineReducers.ts133581723122717945 0
 73D:\SHOHAG\Redux-projects\redux-practice\node_modules\redux\src\compose.ts133581723122737902 0
@@ -47,5 +48,5 @@
 62D:\SHOHAG\Redux-projects\redux-practice\dist\index.672d4772.js133581723877519166 0
 75D:\SHOHAG\Redux-projects\redux-practice\dist\redux-practice.3464ddca.js.map133581723878496550 0
 55D:\SHOHAG\Redux-projects\redux-practice\dist\index.html133583418162265884 0
-62D:\SHOHAG\Redux-projects\redux-practice\dist\index.8cfc62b9.js133583448863931318 0
-66D:\SHOHAG\Redux-projects\redux-practice\dist\index.8cfc62b9.js.map133583448864011095 0
+62D:\SHOHAG\Redux-projects\redux-practice\dist\index.8cfc62b9.js133583460267345759 0
+66D:\SHOHAG\Redux-projects\redux-practice\dist\index.8cfc62b9.js.map133583460267375676 0

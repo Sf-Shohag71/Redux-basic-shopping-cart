@@ -621,7 +621,7 @@ function reducer(state = initialState, action) {
                         quantity: item.quantity + 1
                     };
                     return item;
-                })
+                }).filter((cartItem)=>cartItem.quantity > 0)
             };
         case decreaseCartItem:
             return {
