@@ -599,6 +599,8 @@ const reducer = (0, _redux.combineReducers)({
 });
 const store = (0, _redux.createStore)(reducer, window.__REDUX_DEVTOOLS_EXTENSION__?.());
 console.log(store);
+const a = (0, _cartReducer.decreaseCartItemQuantity)(70);
+console.log(a);
 store.dispatch({
     type: "cart/addItem",
     payload: {
@@ -1013,16 +1015,27 @@ exports.export = function(dest, destName, get) {
 };
 
 },{}],"96Hwp":[function(require,module,exports) {
+// Action types
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "cartAddItem", ()=>cartAddItem);
 parcelHelpers.export(exports, "cartRemoveItem", ()=>cartRemoveItem);
 parcelHelpers.export(exports, "increaseCartItem", ()=>increaseCartItem);
 parcelHelpers.export(exports, "decreaseCartItem", ()=>decreaseCartItem);
+// Action creators
+parcelHelpers.export(exports, "decreaseCartItemQuantity", ()=>decreaseCartItemQuantity);
 const cartAddItem = "cart/addItem";
 const cartRemoveItem = "cart/removeItem";
 const increaseCartItem = "cart/increaseCartItem";
 const decreaseCartItem = "cart/decreaseCartItem";
+function decreaseCartItemQuantity(productId) {
+    return {
+        type: {
+            productId
+        }
+    };
+}
+// Reducer
 function cartReducer(state = [], action) {
     switch(action.type){
         case cartAddItem:

@@ -1,5 +1,5 @@
 import { combineReducers, createStore } from "redux";
-import cartReducer, { decreaseCartItem, increaseCartItem } from "./cartReducer";
+import cartReducer, { decreaseCartItem, decreaseCartItemQuantity, increaseCartItem } from "./cartReducer";
 import productsReducer from "./productsReducer";
 import wishListReducer, { addWishListItem, removeWishListItem } from "./wishListReducer";
 
@@ -11,6 +11,9 @@ const reducer = combineReducers({
 
 const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__?.());
 console.log(store);
+
+const a = decreaseCartItemQuantity(70);
+console.log(a);
 
 store.dispatch({
   type: "cart/addItem",

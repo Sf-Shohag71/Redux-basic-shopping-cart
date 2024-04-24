@@ -1,8 +1,17 @@
+// Action types
 export const cartAddItem = "cart/addItem";
 export const cartRemoveItem = "cart/removeItem";
 export const increaseCartItem = "cart/increaseCartItem";
 export const decreaseCartItem = "cart/decreaseCartItem";
 
+// Action creators
+export function decreaseCartItemQuantity(productId) {
+  return {
+    type: { productId },
+  };
+}
+
+// Reducer
 function cartReducer(state = [], action) {
   switch (action.type) {
     case cartAddItem:
@@ -24,7 +33,7 @@ function cartReducer(state = [], action) {
           return { ...cartItem, quantity: cartItem.quantity - 1 };
         }
         return cartItem;
-      })
+      });
 
     default:
       return state;
